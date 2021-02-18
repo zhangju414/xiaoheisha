@@ -1,0 +1,156 @@
+body {
+	
+	text-align: center;
+	background-color: #f3f4f7;
+	font-family: "microsoft yahei";
+	/* background: -webkit-linear-gradient(#2096DA 1%,rgba(0,0,0,1)); */
+}
+
+/* 导航 */
+#header {
+	width: 1190px;
+	height: 80px;
+	color: white;
+	margin: 0 auto;
+	background-color: #1B1B1D;
+}
+
+#nav {
+	height: 75px;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0px 4px 0px #2096da;
+}
+#navurl{
+	
+	float: left;
+	margin-left: 15px;
+	line-height: 50px;
+	font-size: 15px;
+	margin-top: -16px;
+	margin-bottom: -10px;
+	
+}
+#nav ul {
+	margin-right: 100px;
+	margin-top: 50px;
+	float: right;
+}
+
+#nav ul li {
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	border-top: solid #2096DA;
+	float: left;
+	transition: all 0.5s;
+	cursor: pointer;
+
+	transform: skew(15deg);
+}
+
+#nav ul li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+
+}
+
+#nav ul li a span {
+	display: inline-block;
+	transform: skew(-15deg);
+}
+
+
+#nav ul li:hover {
+	background-color: #2096da;
+}
+
+#nav ul .active {
+	background-color: #2096da;
+}
+
+
+#logo {
+	float: left;
+}
+
+#logo img {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 100px;
+
+}
+
+
+/* 导航结束 */
+
+
+/* 内容 */
+#content {height: 648px;
+
+	width: 1190px;
+	color: white;
+	background: url(../img/bgc2.jpg) repeat;
+	margin: 0 auto;
+}
+
+
+
+#playpanel select {
+	height: 30px;
+	margin-top: 30px;
+	color: white;
+	background-color: #2096DA;
+	border: 1px solid transparent;
+}
+
+#playpanel option {
+	font-size: 13px;
+	color: #000;
+}
+#playpanel input {
+	width: 520px;
+	height: 26px;
+}
+
+#playpanel button {
+	height: 30px;
+	width: 66px;
+	color: white;
+	background-color: #2096DA;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid transparent; //自定义边框
+}
+
+#player {
+	height: 583px;
+}
+
+#player div {
+	margin-top: 50px;
+}
+
+#player div p {
+
+	line-height: 35px;
+	font-size: 15px;
+}
+
+/* 内容结束 */
+
+
+/* 尾部 */
+#footer {
+	width: 1190px;
+	color: white;
+	background-color: #1B1B1D;
+	margin: 0 auto;
+	box-shadow: 0px -4px 0px #2096da;
+}
+
+/* 尾部结束 */
