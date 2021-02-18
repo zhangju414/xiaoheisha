@@ -1,10 +1,10 @@
 var data = [{
 		name: "线 路 1",
-		url: "https://jx.elwtc.com/vip/?url="
+		url: "https://okjx.cc/?url="
 	},
 	{
 		name: "线 路 2",
-		url: "https://okjx.cc/?url="
+		url: "https://jx.elwtc.com/vip/?url="
 
 	},
 	{
@@ -13,7 +13,7 @@ var data = [{
 	},
 	{
 		name: "线 路 4",
-		url: "https://www.bavei.com/vip/?url="
+		url: "https://okjx.cc/?url="
 	},
 	{
 		name: "线 路 5",
@@ -21,7 +21,7 @@ var data = [{
 	},
 	{
 		name: "线 路 6",
-		url: "http://jx.drgxj.com/?url="
+		url: "https://okjx.cc/?url="
 	},
 
 	//		api格式：{name:"线路名称",url:"接口地址"}, 可自行修改和添加
